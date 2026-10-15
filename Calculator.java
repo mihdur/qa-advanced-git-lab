@@ -1,8 +1,9 @@
 public class Calculator {
+    private static final int BONUS = 2;
+	
     public int aduna(int a, int b) {
-        int bonus = 2;
-        return a + b + bonus;
-    }
+		return a + b + BONUS;
+	}
 
     public static void main(String[] args) {
         Calculator calc = new Calculator();
